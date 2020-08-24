@@ -34,3 +34,21 @@ dog_breeds = ["Akita", "German Shephard", "Dalmation"]
 def pop_with_args(dog_breeds)
   small_dogs = dog_breeds.pop(2)
 end
+
+pop_with_args(dog_breeds)
+
+
+my_favorite_cities = ["New York", "Los Angeles", "Chicago"]
+
+def using_shift(my_favorite_cities)
+  im_so_over_this_city = my_favorite_cities.shift
+end
+
+using_shift(my_favorite_cities)
+
+
+
+
+
+
+
