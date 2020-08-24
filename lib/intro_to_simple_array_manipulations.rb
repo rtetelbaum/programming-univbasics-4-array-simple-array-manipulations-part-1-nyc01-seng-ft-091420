@@ -47,8 +47,12 @@ end
 using_shift(my_favorite_cities)
 
 
+ice_cream_brands = ["Haagen Daz", "Ben & Jerry's", "Breyers"]
 
+def shift_with_args(ice_cream_brands)
+  brands_removed = ice_cream_brands.shift(2)
+end
 
-
+shift_with_args(ice_cream_brands)
 
 
